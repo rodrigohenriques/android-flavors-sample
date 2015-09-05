@@ -3,5 +3,5 @@
     <string name="login_password">Senha</string>
     <string name="login_user">Usuário</string>
     <string name="login_button">Login</string>
-
+    <string name="message_test">Mensagem Padrão</string>
 </resources>

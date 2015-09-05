@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="@color/background">
 
     <ScrollView
         android:id="@+id/scrollVent"
@@ -29,24 +30,26 @@
                 android:background="@drawable/logo" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/login_editText_user"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="4dp"
-                android:hint="@string/login_user"/>
+                android:hint="@string/login_user" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/login_editText_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/login_password"/>
+                android:hint="@string/login_password"
+                android:inputType="numberPassword" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:text="@string/login_button" />
+                android:text="@string/login_button"
+                android:onClick="login"/>
         </LinearLayout>
 
     </ScrollView>

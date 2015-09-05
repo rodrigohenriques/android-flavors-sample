@@ -16,6 +16,17 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        homolog{
+
+        }
+    }
+    productFlavors{
+        linux{
+            applicationId "com.github.flavors.sample.linux"
+        }
+        windows{
+            applicationId "com.github.flavors.sample.windows"
+        }
     }
 }
 
