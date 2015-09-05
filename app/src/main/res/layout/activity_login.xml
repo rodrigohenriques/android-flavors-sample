@@ -45,7 +45,8 @@
                 android:id="@+id/login_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/action_login"/>
+                android:text="@string/action_login"
+                android:onClick="login"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

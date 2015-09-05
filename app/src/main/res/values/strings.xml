@@ -4,4 +4,5 @@
     <string name="hint_password">Password</string>
     <string name="hint_username">Usuário</string>
     <string name="some_logo">Some logo</string>
+    <string name="login_message_test">Mensagem padrão</string>
 </resources>
