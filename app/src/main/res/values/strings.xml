@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Android Flavors Sample</string>
+    <string name="app_name">Pica das Galáxias</string>
+    <string name="login_password">Senha</string>
+    <string name="login_user">Usuário</string>
+    <string name="login_button">Login</string>
 
 </resources>
