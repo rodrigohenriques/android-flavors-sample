@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android Flavors Sample</string>
+    <string name="action_login">ENTRAR</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Usuário</string>
+    <string name="some_logo">Some logo</string>
 </resources>
